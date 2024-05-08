@@ -1,0 +1,67 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+.insidebox {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px
+  color: rgba(65, 50, 100, 0.08;);
+}
+form{
+display: block;
+margin: 0%;
+}
+header .wanted-city {
+  color: rgba(120, 128, 128, 0.871);
+  border: none;
+  background-color: #e1eaeade;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;width: 75%;
+}
+header .search-button {
+    border: #885DF1 1px solid;
+    color: #ffff;
+  background-color: #885DF1;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+main {
+  padding: 30px 0;
+}
+main p .degree{
+    color: rgb(255, 0, 0);
+}
+
+main p {color: rgba(39, 33, 66, 0.4);}
+
+main .current-weather {
+    display: flex;
+    justify-content: space-between;
+}
+main div .sun{font-size: 46px;
+margin-top: 30px;}
+
+span {
+font-size: 22px;  
+position: relative;
+top: -15px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgba(39, 33, 66, 0.4);
+}    
+    
+  

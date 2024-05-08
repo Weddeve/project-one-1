@@ -1,1 +1,48 @@
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="insidebox">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="wanted-city"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Saturday 15:32, moderate rain <br />
+              Humidity: <strong class="degree">87%</strong>, Wind:
+              <strong class="degree">7.2km/h</strong>
+            </p>
+          </div>
+          <div class="sun">
+            ☀️<strong>14<span>°C</span></strong>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Tisetso Mankgeru</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script>src</script>
+  </body>
+</html>
